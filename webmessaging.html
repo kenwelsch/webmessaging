@@ -27,6 +27,16 @@
   });
 </script>
 
+Genesys("command", "Database.set", {
+  messaging: {
+    customAttributes: {
+      department: "AWESOME",
+      property_type: "apartment",
+      device: "mobile"
+    }
+  }
+});
+	
 <script>
   (function(a,t,c,l,o,u,d){a['_genesysJourneySdk']=o;a[o]=a[o]||function(){
   (a[o].q=a[o].q||[]).push(arguments)},a[o].l=1*new Date();u=t.createElement(c),
